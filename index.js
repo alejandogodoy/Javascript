@@ -127,3 +127,41 @@ if (Age < 2) {
     alert ("Anciano")
 }
 */
+
+// For
+
+/*EJERCICIO a
+
+var myArray = ["Red", "Blue", "Green", "White", "Black"];
+for (var index = 0; index < myArray.length; index++) {
+    alert (myArray[index])
+}
+*/
+
+/*EJERCICIO b
+var myArray = ["red", "blue", "green", "white", "black"];
+
+for (var index = 0; index < myArray.length; index++) {
+    myArray[index] = myArray[index].charAt(0).toUpperCase() + myArray[index].slice(1);
+    alert   (myArray[index])
+}
+*/
+
+/* EJERCICIO c
+var sentence = "";
+var myArray = ["Red", "Blue", "Green", "White", "Black"];
+for (var i = 0; i < myArray.length; i++) {
+    sentence = myArray
+    alert (sentence[i])
+}
+*/
+
+/*
+var array = [];
+for (index = 0; index < 10; index += 1) {
+
+    array[index] = [];
+
+}
+console.log (array)
+*/
