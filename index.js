@@ -54,3 +54,45 @@ var str = "certificates statements"
 var res = str.substring (0, 1).toUpperCase()+ str.substring (1, 11).toLowerCase() + str.substring(13, 14).toUpperCase() + str.substring (14, 23).toLowerCase()
 console.log (res);
 */
+
+// ARRAYS
+
+/* EJERCICIO a
+var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+console.log(meses[5], meses[11])
+*/
+
+/*EJERCICIO b
+var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+console.log (meses.sort())
+*/
+
+/* EJERCICIO c
+var list = ["Banana", "Apple", "Orange"];
+list.push ("Mango");
+list.unshift("Grape");
+alert (list)
+*/
+
+/* EJERCICIO d
+var list = ["Banana", "Apple", "Orange"];
+list.shift()
+list.pop ()
+alert (list)
+*/
+
+/* EJERCICIO e
+var myArray = ["first", "Second", "Third"]
+myArray.reverse()
+alert (myArray)
+*/
+/*EJERCICIO f
+var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+var order = meses.join(" - ")
+alert (order)
+*/
+/*EJERCICIO g
+var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+var copy = meses.slice (4, 11)
+alert (copy)
+*/
