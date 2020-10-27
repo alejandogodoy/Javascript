@@ -96,3 +96,34 @@ var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Ag
 var copy = meses.slice (4, 11)
 alert (copy)
 */
+
+// If - Else
+
+/*EJERCICIO a
+Math.random()
+if (Math.random()>= 0,5) {
+    alert ("Greater than 0,5")
+}else {
+    alert ("Lower than 0,5")
+}
+*/
+
+/* EJERCICIO b
+var Age = 28;
+
+if (Age < 2) {
+    alert ("Bebé");
+} else if (Age < 2) && (Age < 12) {
+    alert ("Nino");
+} else if (Age < 13) &&(Age < 19) {
+    alert ("Adolecente");
+} else if (Age < 20) && (Age < 30){
+    alert ("Joven")
+} else if (Age < 31) && (Age < 60) {
+    alert ("adulto")
+} else if  (Age < 61) && (Age < 75) {
+    alert ("Adulto Mayor")
+} else  if (Age == 75) {
+    alert ("Anciano")
+}
+*/
