@@ -175,27 +175,57 @@ function miSuma(a,b) {
     */
 
    /* EJERCICIO b
-function miSuma(num1,num2) {
-    console.log(num1+num2);
+function miSuma (a, b) {
+    if (isNaN(a)) {
+      alert ("El primer valor está mal");
+      return NaN;
+    } else if (isNaN(b)) {
+        alert ("El segundo valor es incorrecto");
+        return NaN;
     }
-    miSuma(7,9);
-alert("algunos de los valores está mal")
+    return a + b;
+}
+console.log(miSuma(4.5
 */
 
 /* EJERCICIO c
-function integer(param1) {
-console.log (param1)
+function validated (param1){
+    if (Number.isInteger(param1)){
+        return true;
+    }
+    return false;
 }
-integer(10)
-if (integer != 2.5) {
-    alert ("No es un numero entero")
-}else (true)
+console.log(validated(4.55)
 */
 /*EJERCICIO d
-function suma(num1, num2) {
-return console.log(num1+num2)
+function suma (num1, num2) {
+    if (isNaN(num1)) {
+      alert ("El primer valor es incorrecto");
+      return NaN;
+    } else if (isNaN(num2)) {
+        alert ("El segundo valor es incorrecto");
+        return NaN;
+    }
+    if (validate (num1 + num2)) {
+        return num1 + num2;
+    } 
+    alert("Algunos numeros no son enteros " + Math.round(num1 + num2));
+    return Math.round(num1 + num2)
 }
-suma (2.4, 5.9)
-if (suma != 0, 1 , 2, 3, 4, 5, 6, 7, 8, 9) {
-    alert ("No son numeros enteros")
-} */
+console.log(sumaOne(10,3.5)))
+*/
+
+/*EJERCICIO e
+
+function validateNumber (num1) {
+    if (isNaN(num1)) {
+      alert ("No es un número");
+      return NaN;
+    }
+    return num1;
+}
+function suma (num1, num2){
+     return validateNumber(num1) + validateNumber(num2);
+}
+console.log(suma(6,"sdfdsf"))
+*/
