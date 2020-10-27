@@ -165,3 +165,37 @@ for (index = 0; index < 10; index += 1) {
 }
 console.log (array)
 */
+// Funciones
+
+/*EJERCICIO a
+function miSuma(a,b) {
+    console.log(a+b);
+    }
+    miSuma(7,9);
+    */
+
+   /* EJERCICIO b
+function miSuma(num1,num2) {
+    console.log(num1+num2);
+    }
+    miSuma(7,9);
+alert("algunos de los valores está mal")
+*/
+
+/* EJERCICIO c
+function integer(param1) {
+console.log (param1)
+}
+integer(10)
+if (integer != 2.5) {
+    alert ("No es un numero entero")
+}else (true)
+*/
+/*EJERCICIO d
+function suma(num1, num2) {
+return console.log(num1+num2)
+}
+suma (2.4, 5.9)
+if (suma != 0, 1 , 2, 3, 4, 5, 6, 7, 8, 9) {
+    alert ("No son numeros enteros")
+} */
