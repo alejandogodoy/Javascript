@@ -212,7 +212,7 @@ function suma (num1, num2) {
     alert("Algunos numeros no son enteros " + Math.round(num1 + num2));
     return Math.round(num1 + num2)
 }
-console.log(sumaOne(10,3.5)))
+console.log(suma(10,3.5)))
 */
 
 /*EJERCICIO e
